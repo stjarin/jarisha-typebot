@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: typebot-builder
-    env: docker
-    dockerimage: typebot/typebot-builder:latest
+    name: jarisha-typebot
+    runtime: docker
+    dockerImage: typebot/typebot-builder:latest
     plan: free
-    envVars:
-      - key: ENCRYPTION_SECRET
-        generateValue: true
