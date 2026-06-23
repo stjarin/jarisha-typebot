@@ -2,5 +2,5 @@ services:
   - type: web
     name: jarisha-typebot
     runtime: docker
-    dockerImage: typebot/typebot-builder:latest
+    dockerimage: typebot/typebot-builder:latest
     plan: free
