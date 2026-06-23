@@ -1,1 +1,1 @@
-FROM typebot/typebot-builder:latest
+FROM docker.io/typebot/builder:latest
