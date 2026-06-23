@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: typebot-builder
+    env: docker
+    dockerimage: typebot/typebot-builder:latest
+    plan: free
+    envVars:
+      - key: ENCRYPTION_SECRET
+        generateValue: true
